@@ -150,10 +150,10 @@ def storm_doc():  # CОСТАВЛЯЕМ ФАЙЛЫ
     body.append(fact_wheather_2)
     body.append(list[7])
 
-    if not os.path.exists('get_him_on_job'):
-        os.mkdir('get_him_on_job')
+    if not os.path.exists('gm'):
+        os.mkdir('gm')
 
-    output = os.path.join('get_him_on_job', f'{file_name}.odt')
+    output = os.path.join('gm', f'{file_name}.odt')
     document.save(target=output, pretty=True)
 
 
