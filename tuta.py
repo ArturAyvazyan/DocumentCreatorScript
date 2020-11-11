@@ -13,8 +13,6 @@ from lpod.table import odf_create_table, odf_create_row, odf_create_cell, odf_cr
 from lpod.list import odf_create_list, odf_create_list_item
 
 
-# ЗАДАЕМ ДАННЫЕ
-
 document = odf_new_document('text')
 body = document.get_body()
 rand_1 = random.randint(10000, 99999)
