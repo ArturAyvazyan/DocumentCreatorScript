@@ -83,7 +83,7 @@ class Akuta:
         self.list = ['first', 'second', 'third', 'fourth',
                      'five', 'six', 'seven', 'eight']
 
-    # Файл с информацией о введенных данных.
+        # Файл с информацией о введенных данных.
         logging.basicConfig(level=logging.DEBUG, filename="input_date.log")
         logging.debug('Logging: %s', {'name': self.your_name, 'storm begins(hour)': self.since_hour, 'storm begins(minute)': self.since_minute, 'storm ends(hour)': self.to_hour, 'storm ends(minute)': self.to_minute,
                                       'polygon': self.polygon, 'front': self.front, 'wind': self.wind, 'cloud': self.cloud, 'wheather': self.wheather, 'rain': self.rain, 'Vidimost ot': self.see_1, 'Vidimost do': self.see_2, 'filename': self.file_name})
